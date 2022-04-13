@@ -10,6 +10,7 @@ export class AccountService {
   constructor(private http: HttpClient) { }
 
   login(model: any) {
+    debugger;
     return this.http.post(this.baseUrl + 'account/login', model);
   }
 }
