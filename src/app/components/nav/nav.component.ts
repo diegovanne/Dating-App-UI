@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { User } from '../models/user';
-import { AccountService } from '../services/account.service';
+import { User } from '../../models/user';
+import { AccountService } from '../../services/account.service';
 
 @Component({
   selector: 'app-nav',
